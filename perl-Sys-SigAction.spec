@@ -15,7 +15,6 @@ Source:         http://www.cpan.org/modules/by-module/Sys/%{module}-%{version}.t
 Buildrequires:	perl-devel
 %endif
 BuildArch:	noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 This module implements set_sig_handler(), which sets up a signal handler and
