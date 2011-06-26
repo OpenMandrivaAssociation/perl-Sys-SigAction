@@ -1,5 +1,5 @@
 %define upstream_name	 Sys-SigAction
-%define upstream_version 0.13
+%define upstream_version 0.14
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
