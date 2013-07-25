@@ -1,15 +1,15 @@
 %define upstream_name	 Sys-SigAction
-%define upstream_version 0.15
+%define upstream_version 0.17
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.17
+Release:	1
 
 Summary:	Perl extension for Consistent Signal Handling
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Sys/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/modules/by-module/Sys/Sys-SigAction-0.17.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -88,3 +88,4 @@ make test
 
 * Fri Jul 06 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.10-1mdv2008.0
 - first mdv release 
+
