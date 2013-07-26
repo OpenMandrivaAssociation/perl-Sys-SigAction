@@ -1,2 +1,4 @@
+removed_sources:
+  Sys-SigAction-0.15.tar.bz2: 607ea496e3ffde149dd79a9f2b83d5793c87eb3c
 sources:
-  "Sys-SigAction-0.15.tar.bz2": 607ea496e3ffde149dd79a9f2b83d5793c87eb3c
+  Sys-SigAction-0.17.tar.gz: a5b45dcdd0eb3590cd068adcd381ffaaf2242788
