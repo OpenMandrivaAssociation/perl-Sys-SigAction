@@ -1,5 +1,5 @@
 %define upstream_name	 Sys-SigAction
-%define upstream_version 0.20
+%define upstream_version 0.21
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -42,7 +42,7 @@ make test
 %files
 %doc README Changes
 %{perl_vendorlib}/Sys
-%_mandir/man3*/*
+%{_mandir}/man3*/*
 
 
 %changelog
@@ -88,5 +88,6 @@ make test
 
 * Fri Jul 06 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.10-1mdv2008.0
 - first mdv release 
+
 
 
