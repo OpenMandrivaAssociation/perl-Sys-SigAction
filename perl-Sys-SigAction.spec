@@ -1,15 +1,15 @@
 %define upstream_name	 Sys-SigAction
-%define upstream_version 0.21
+%define upstream_version 0.24
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Perl extension for Consistent Signal Handling
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Sys/Sys-SigAction-%{upstream_version}.tar.gz
+Url:        https://github.com/labaxter/sys-sigaction
+Source0:	https://cpan.metacpan.org/authors/id/L/LB/LBAXTER/Sys-SigAction-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
