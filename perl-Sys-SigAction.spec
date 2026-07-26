@@ -1,15 +1,13 @@
 %define upstream_name	 Sys-SigAction
-%define upstream_version 0.24
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.24
+Release:	2
 
 Summary:	Perl extension for Consistent Signal Handling
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:        https://github.com/labaxter/sys-sigaction
-Source0:	https://cpan.metacpan.org/authors/id/L/LB/LBAXTER/Sys-SigAction-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/L/LB/LBAXTER/Sys-SigAction-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -28,7 +26,7 @@ name from the number -- sig_name(), and get the signal number from the name --
 sig_number().
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -61,9 +59,7 @@ make test
 
 * Wed Jul 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.110.0-1mdv2010.0
 + Revision: 404434
-- rebuild using %%perl_convert_version
-
-* Sun Feb 01 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.11-1mdv2009.1
+- rebuild using %0.24 Sun Feb 01 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.11-1mdv2009.1
 + Revision: 336237
 - update to new version 0.11
 
